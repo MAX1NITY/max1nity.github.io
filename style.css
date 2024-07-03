@@ -1,0 +1,95 @@
+.profile-img {
+    min-width: 200px;
+    min-height: 335px;
+    max-width: 450px;
+    max-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.name{
+    margin: 0;
+    text-align: center;
+    color: bisque;
+}
+
+h2{
+    margin: 0;
+    text-align: center;
+    color: bisque;
+}
+
+h3{
+    margin: 5px;
+    text-align: center;
+    color: bisque;
+}
+
+body{
+    padding: 20px;
+    font-family: sans-serif;
+    background-color: #2D2D2D;
+    color: #FFFFFF;
+    border: 10px solid burlywood ;
+
+}
+
+.profile{
+    text-align: center;
+    margin: 0;
+}
+
+header{
+    color: #FFD700;
+    border-radius: 5px;
+    margin: 0;
+    margin-bottom: 5px;
+    height: auto;
+    width: auto;
+}
+
+br{
+    background-color: #FFFFFF;
+    color: white;
+}
+
+.goal-title, .contact-title, .visit{
+    text-align: center;
+    color: #FFD700;
+}
+
+p{
+    color: bisque;
+    text-align: center;
+}
+
+a::after{
+    color: white;
+}
+
+a{
+    color: bisque;
+    display: flex;
+    justify-content: space-around;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.p-email{
+    display: block;
+    text-align: center;
+}
+
+ul{
+    color: bisque;
+    text-align: center; 
+}
