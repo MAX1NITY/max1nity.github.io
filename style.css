@@ -39,6 +39,13 @@ body{
 
 }
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #B0C4DE;
+    color: #000000;
+}
+
 .profile{
     text-align: center;
     margin: 0;
@@ -63,9 +70,14 @@ br{
     color: #FFD700;
 }
 
-p{
-    color: bisque;
+p:not(.copyright){
+    
     text-align: center;
+    color: #2F4F4F;
+}
+
+.copyright{
+    color: bisque;
 }
 
 a::after{
@@ -92,4 +104,12 @@ a{
 ul{
     color: bisque;
     text-align: center; 
+}
+
+footer {
+    background-color: #2F4F4F;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
 }
